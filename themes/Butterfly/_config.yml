@@ -1,0 +1,110 @@
+# 导航菜单
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+
+# 网站图标
+favicon: /favicon.ico
+
+# 代码高亮
+highlight_theme: mac
+
+# 社交链接
+social:
+  github: https://github.com/adai-blog || fab fa-github
+
+# 文章元信息
+post_meta:
+  page:
+    date_type: both
+    date_format: relative
+    categories: true
+    tags: true
+  post:
+    date_type: both
+    date_format: relative
+    categories: true
+    tags: true
+
+# 评论系统 - Gitalk
+comments:
+  use: Gitalk
+  text: true
+  lazyload: true
+  count: true
+  card_post_count: false
+
+gitalk:
+  client_id: your-github-oauth-app-client-id
+  client_secret: your-github-oauth-app-client-secret
+  repo: blog-comments
+  owner: adai-blog
+  admin: adai-blog
+  language: zh-CN
+  perPage: 10
+  distractionFreeMode: true
+  pagerDirection: last
+  createIssueManually: true
+
+# 页脚
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text: <p>阿呆和他的朋友们 | Powered by Hexo & Butterfly</p>
+
+# 本地搜索
+search:
+  enable: true
+  path: search.xml
+  field: post
+  content: true
+  unescape: true
+
+# 简繁转换
+translate:
+  enable: false
+
+# 阅读模式
+readmode:
+  enable: true
+
+# 暗黑模式
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+
+# 文章TOC
+toc:
+  post: true
+  page: false
+  number: true
+  expand: true
+  style_simple: false
+
+# 图片懒加载
+lazyload:
+  enable: true
+  field: site
+  placeholder:
+  blur: false
+
+# 数学公式
+math:
+  enable: false
+
+# Mermaid图表
+mermaid:
+  enable: true
+  theme: default
+
+# 分析统计
+baidu_analytics:
+google_analytics:
+
+# CDN
+CDN:
+  enable: false
